@@ -1,0 +1,138 @@
+body {
+    background-color: rgba(var(--bs-tertiary-bg-rgb));
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif !important;
+}
+
+#title {
+    background: url(./images/Title.jpg) no-repeat center/cover;
+    height: 400px;
+}
+
+.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    gap: 2rem;
+
+}
+
+.skills {
+    text-align: center;
+   margin-bottom: 150px;
+   
+
+}
+
+.parent>* {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px;
+    height: 200px;
+    background-color: #f0f1e9;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.discription {
+    margin-top: 20px;
+    font-size: large;
+}
+
+
+@media (max-width: 1250px) {
+    .parent {
+        flex-direction: column;
+        height: 100px;
+    }
+}
+
+#footer {
+    
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.linkedin {
+    padding: 5px 0px 5px;
+    margin-right: 5px;
+   
+   
+}
+.linkedin:hover{
+    background-color: rgb(159, 162, 162);
+   opacity: 0.9;
+   
+ 
+}
+
+.github {
+    padding: 5px 0px 5px;
+    margin-left: 10px;
+}
+.github:hover{
+    background-color: rgb(159, 162, 162);
+   opacity: 0.9;
+   
+   
+ 
+}
+
+.heading {
+    padding-bottom: 15px;
+}
+
+.btn {
+    color: aliceblue;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: rgb(66 70 73) !important;
+
+
+}
+
+
+
+
+#bottom-container {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #2c2a2a;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+
