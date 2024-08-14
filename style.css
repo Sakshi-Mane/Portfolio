@@ -1,12 +1,12 @@
 body {
-    background-color: rgba(var(--bs-tertiary-bg-rgb));
+    background-color: #fff;
     margin: 0;
     text-align: center;
     font-family: "Merriweather", serif !important;
 }
 
 #title {
-    background: url(./images/Title.jpg) no-repeat center/cover;
+    background: url(https://img.freepik.com/premium-vector/natural-landscape-with-silhouette-mountains-hills-sky-with-clouds-birds_662550-768.jpg?semt=ais_hybrid) no-repeat center/cover;
     height: 400px;
 }
 
@@ -34,6 +34,8 @@ body {
 .skills {
     text-align: center;
    margin-bottom: 150px;
+   color: #66bfbf;
+   font-weight: bold;
    
 
 }
@@ -53,6 +55,11 @@ body {
     margin-top: 20px;
     font-size: large;
 }
+.heading{
+    color: #66bfbf;
+    font-weight: bold;
+}
+
 
 
 @media (max-width: 1250px) {
